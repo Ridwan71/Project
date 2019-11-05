@@ -1,0 +1,613 @@
+nav ul a {
+    color: white;
+    display: inline;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+nav ul li {
+    padding-left: 10px;
+}
+
+li.active a {
+    color: white;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+/* Kursor Aktif Navbar */
+li.aktif a {
+    color: green;
+    background-color: white;
+    border-radius: 10px;
+}
+
+nav ul li.active {
+    background-color: white;
+}
+
+/* Hover Kontak */
+#hover-kontak li.active a {
+    color: white;
+    background-color: rgb(9, 97, 32);
+    border-radius: 5px;
+    display: block;
+}
+
+/* Akhir Hover Kontak */
+
+.brand-logo img {
+    width: 40px;
+    margin-left: 5em;
+    margin-top: 6px;
+}
+
+.header-menu {
+    margin-right: 30em;
+}
+
+.header-menunya {
+    margin-right: 13em;
+}
+
+nav ul a:hover {
+    background-color: white;
+    color: green;
+    border-radius: 10px;
+}
+
+.slider {
+    position: relative;
+    height: 400px;
+    width: 100%
+}
+
+.slider.fullscreen {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0
+}
+
+.slider.fullscreen ul.slides {
+    height: 100%
+}
+
+.slider.fullscreen ul.indicators {
+    z-index: 2;
+    bottom: 30px
+}
+
+.slider .slides {
+    background-color: #9e9e9e;
+    margin: 0;
+    height: 400px
+}
+
+.slider .slides li {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: inherit;
+    overflow: hidden
+}
+
+.slider .slides li img {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center
+        /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative; */
+}
+
+.slider .slides li .caption {
+    color: #fff;
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    width: 70%;
+    opacity: 0
+}
+
+.slider .slides li .caption p {
+    color: #e0e0e0
+}
+
+.slider .slides li.active {
+    z-index: 2
+}
+
+.slider .indicators {
+    position: absolute;
+    text-align: center;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0
+}
+
+.slider .indicators .indicator-item {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    height: 16px;
+    width: 16px;
+    margin: 0 12px;
+    background-color: #e0e0e0;
+    -webkit-transition: background-color .3s;
+    transition: background-color .3s;
+    border-radius: 50%
+}
+
+.slider .indicators .indicator-item.active {
+    background-color: #4CAF50
+}
+
+.big-menu {
+    position: absolute;
+    z-index: 5;
+    left: 62px;
+}
+
+.big-menu li a.btn-floating {
+    width: 120px !important;
+    height: 120px !important;
+    margin-top: 100%;
+}
+
+.big-menu li img {
+    width: 120px;
+}
+
+.big-menu a.ket {
+    position: absolute;
+    left: 135px;
+    margin-top: -90px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+img.footer-logo {
+    width: 100px;
+}
+
+img.footer-download {
+    width: 100%;
+}
+
+img.tengah {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* copas bawaan parallax materialize */
+.parallax-container {
+    min-height: 380px;
+    line-height: 0;
+    height: auto;
+    color: rgba(255, 255, 255, .9);
+}
+
+.parallax-container .section {
+    width: 100%;
+}
+
+/* Akhir copas bawaan parallax materialize */
+
+/* Btn Style Home Agro */
+
+.btnnya {
+    background-color: white;
+    color: black;
+    height: 54px;
+    line-height: 23px;
+    font-size: 15px;
+    padding: 0 28px;
+    font-family: "Open Sans", sans-serif
+}
+
+button,
+.btnnya:hover {
+    background-color: rgb(2, 66, 27);
+    color: white;
+    border-radius: 5px;
+    /* z-index: 11; */
+}
+
+.radius-buttoun .green.darken-4 {
+    background-color: #1B5E20 !important;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+
+/* Akhir Btn Style Home Agro */
+
+/* Font Style */
+.justify {
+    text-align: justify;
+}
+
+.bold {
+    font-weight: bold;
+    text-align: justify;
+}
+
+.boldc {
+    font-weight: bold;
+    text-align: center;
+}
+
+.rightnya {
+    font-weight: bold;
+    text-align: right;
+}
+
+.b {
+    font-weight: bold;
+}
+
+/* 
+@font-face {
+    font-family: 'Helvetica 107 Extra Black Condensed';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Helvetica 107 Extra Black Condensed'), url('HelveticaNeue-ExtBlackCond.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Helvetica 45 Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Helvetica 45 Light'), url('HelveticaNeue-Light.woff') format('woff');
+}
+
+.helvetica-extra {
+    font-family: 'Helvetica 107 Extra Black Condensed';
+    font-weight: normal;
+    font-size: 42px
+}
+
+.helvetica-107 {
+    font-family: 'Helvetica 107 Extra Black Condensed';
+    font-weight: normal;
+    font-size: 22px
+}
+
+.helvetica-45 {
+    font-family: 'Helvetica 45 Light';
+    font-weight: normal;
+    font-size: 18px
+} */
+
+.helvetica-extra {
+    font-family: "Open Sans", sans-serif;
+    font-weight: normal;
+    font-size: 42px
+}
+
+.helvetica-45 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: normal;
+    font-size: 17px
+}
+
+.helvetica-46 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: normal;
+    font-size: 21px
+}
+
+.helvetica-107 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: normal;
+    font-size: 22px
+}
+
+.Deskripsi-Helvetica {
+    font-family: sans-serif;
+    font-size: 15px;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+    /* color: #000000; */
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+
+}
+
+/* Akhir Font Style */
+
+/* Garis */
+hr.new4 {
+    border: 1px solid green;
+}
+
+/* Akhir Garis */
+
+/* A href Color */
+.putih {
+    color: white;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.whitenya {
+    background-color: #f7f7f7 !important;
+}
+
+.offer {
+    font-family: 'Helvetica 65 Medium';
+    font-weight: normal;
+    font-size: 20px;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-align: center;
+    background-color: #80b645;
+    color: #fff;
+    padding: 6px;
+}
+
+/* A href Color */
+
+/* pointer slider */
+
+#sliderBtnNaik.slider .indicators .indicator-item.active {
+    background-color: #f4f7f4;
+}
+
+#sliderBtnNaik.slider .indicators .indicator-item {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    height: 16px;
+    width: 16px;
+    margin: 0 12px;
+    background-color: black;
+    -webkit-transition: background-color .3s;
+    transition: background-color .3s;
+    border-radius: 50%;
+    color: white;
+}
+
+#sliderBtnNaik.slider .indicators {
+    position: absolute;
+    text-align: center;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0px;
+    padding: 38px;
+    z-index: 11;
+}
+
+.slider.fullscreen {
+    height: 50vh;
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0
+}
+
+/* akhir pointer slider */
+
+/* Dropdown */
+.right-triangle {
+    float: right;
+}
+
+.dropdown-nested {
+    overflow-y: visible;
+}
+
+.dropdown-content .dropdown-content {
+    margin-left: 100%;
+}
+
+.dropdown-content>li {
+    position: relative;
+}
+
+.dropdown-content li .dropdown-content {
+    position: absolute;
+    left: 0 !important;
+    top: 0 !important;
+}
+
+/* Akhir Dropdown */
+
+.slider-room .navigasi {
+    position: absolute;
+    margin-top: 200px;
+    margin-left: -60px;
+    width: 500px;
+}
+
+.navigasi .kiri {
+    left: 0;
+    position: absolute;
+}
+
+.navigasi .kanan {
+    right: -35px;
+    position: absolute;
+}
+
+/* Lates-News */
+#lates-news .card .card-content p {
+    margin: -57px;
+    margin-top: -33%;
+    font-size: 60%;
+    margin-right: -39%;
+    color: black;
+}
+
+#lates-news .card.horizontal .card-image img {
+    border-radius: 5px 0 0 2px;
+    max-width: 62%;
+    width: auto;
+}
+
+/* Maps Inagro */
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+/* Hover img */
+.img4 {
+    height: auto;
+    transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+
+.img4:hover {
+    transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+}
+
+/* Preloader */
+.preloader-background {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #eee;
+
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+/* Jarak Slider Image */
+#jarakSlider .row {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -10px;
+}
+
+#jarakSliderBawah .row {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -65px;
+}
+
+/* Tulisan Slider */
+#tulisan-bawah-slide h3 {
+    font-size: 1.92rem;
+    padding-top: 263px;
+    line-height: 110%;
+    margin: 1.9466666667rem 0 1.168rem 0;
+}
+
+/* Footer */
+footer,
+section {
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+#footernya {
+    border: 0;
+    height: 60px;
+    margin-right: 50px;
+}
+
+/* Footer */
+
+/* mobile css */
+@media only screen and (max-width: 992px) {
+    .brand-logo img {
+        width: 39px;
+        margin: 2px;
+    }
+
+    .slider .slides li {
+        width: 100%;
+    }
+
+    #footernya {
+        border: 0;
+        height: 60px;
+        margin-right: -4px;
+    }
+
+    /* Button Padding Agro Home */
+    .row .col.s12.btnnyaM {
+        width: 100%;
+        margin-left: auto;
+        left: auto;
+        right: auto;
+        padding: 4px;
+        padding-top: 4px;
+    }
+
+    /* Akhir Button Padding Agro Home */
+
+    #lates-news .card .card-content p {
+        margin: -81px;
+        margin-top: -8%;
+        font-size: 67%;
+        margin-right: -15%;
+        color: black;
+    }
+
+    .navigasi .kiri {
+        left: 23px;
+        position: absolute;
+    }
+
+    .navigasi .kanan {
+        right: -2px;
+        position: absolute;
+    }
+
+    /* Dropdown Sidenav */
+    .dropdown-content .dropdown-content {
+        margin-left: 20%;
+    }
+
+}
